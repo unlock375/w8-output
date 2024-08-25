@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BugFix Web Page</title>
+    <meta name="description" content="sample text">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/html-css/sanitize.css">
+    <link rel="stylesheet" href="/assets/html-css/style.css">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <section class="section">
+        <h1>4x4</h1>
+        <ul>
+            <li class="back-item">
+                <img class="back-image" src="https://dummyimage.com/400x200/e823e8/fff" alt="Blog image">
+                <dl class="back-item-content">
+                    <dt class="back-text">1</dt>
+                    <dt class="back-text">2</dt>
+                    <dt class="back-text">3</dt>
+                    <dt class="back-text">4</dt>
+                    <dt class="back-text">5</dt>
+                    <dt class="back-text">6</dt>
+                    <dt class="back-text">7</dt>
+                    <dt class="back-text">8</dt>
+                    <dt class="back-text">9</dt>
+                    <dt class="back-text">10</dt>
+                    <dt class="back-text">11</dt>
+                    <dt class="back-text">12</dt>
+                    <dt class="back-text">13</dt>
+                    <dt class="back-text">14</dt>
+                    <dt class="back-text">15</dt>
+                    <dt class="back-text">16</dt>
+                </dl>
+            </li>
+        </ul>
+     </section>
+
+     <section class="section">
+        <h1>2x2</h1>
+        <ul>
+            <li class="back-item">
+                <img class="back-image" src="https://dummyimage.com/400x200/e823e8/fff" alt="Blog image">
+                <dl class="back-item-content">
+                    <dt class="back-text secondary">1</dt>
+                    <dt class="back-text secondary">2</dt>
+                    <dt class="back-text secondary">3</dt>
+                    <dt class="back-text secondary">4</dt>
+                </dl>
+            </li>
+        </ul>
+     </section>
+
+     <section class="section">
+        <h1>6x1</h1>
+        <ul>
+            <li class="back-item">
+                <img class="back-image" src="https://dummyimage.com/400x200/e823e8/fff" alt="Blog image">
+                <dl class="back-item-content">
+                    <dt class="back-text third">1</dt>
+                    <dt class="back-text third">2</dt>
+                    <dt class="back-text third">3</dt>
+                    <dt class="back-text third">4</dt>
+                    <dt class="back-text third">5</dt>
+                    <dt class="back-text third">6</dt>
+                </dl>
+            </li>
+        </ul>
+     </section>
+
+    <section class="section secondary">
+        <h1 class="login-title">Sign in to your account</h1>
+        <form class="login-form" action="#">
+            <table class="login-table">
+                <tr class="login-tr">
+                    <th class="login-th">
+                        <label for="email">Your Email</label>
+                    </th>
+                    <td class="login-td">
+                        <input class="login-input" type="email" id="email">
+                    </td>
+                </tr>
+                <tr class="login-tr">
+                    <th class="login-th">
+                        <label for="password">Password</label>
+                    </th>
+                    <td class="login-td">
+                        <input class="login-input" type="password" id="password">
+                    </td>
+                </tr>
+            </table>
+            <div class="login-div-button">
+                <button class="login-button" type="button" onclick="save()">Sign in</button>
+            </div>
+        </form>
+        <p class="login-p">Don't have an account? <a class="login-a" href="#">Sign up</a></p>
+    </section>
+
+    <script src="/assets/database/app.js"></script>
+</body>
+</html>
